@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 80px auto 0px auto;
+    padding-top: 100px;
+    height: 800px;
+    width: 1500px;
+    background-image: linear-gradient( rgba(113, 250, 92, 0.5), rgba(243, 17, 224, 0.5)), url(./hintersee-3601004_1920.jpg);
+    background-size: cover;
+}
+
+#section-2 {
+    margin: auto;
+    height: 600px;
+    width: 1070px;
+    border-radius: 15px;
+    background-image: url(./1.jpg);
+    background-size: contain;
+    overflow: hidden;
+}
+
+#exe {
+    height: 700px;
+    padding-top: 650px;
+    transition: all .25s;
+    box-shadow: inset 0px -119px 64px -56px rgba(0,0,0,0.75);
+}
+
+#exe:hover {
+    transform: translate(0, -100px);
+}
+
+#titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    display: inline;
+    margin-left: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.iconos {
+    display: inline;
+    margin-left: 750px;
+}
+
+.icono {
+    background-color: #e6e6e6;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    padding: 2.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.icono:hover {
+    background-color:#FF3AD6;
+}
+
+.icono:hover .icono-corazon {
+    fill: white;
+}
+
+.icono:hover .icono-carpeta {
+    fill: white;
+}
+
+.icono svg {
+    width: 20px;
+    height: 20px;
+}
